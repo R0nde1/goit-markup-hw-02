@@ -51,7 +51,8 @@ body {
     font-size: 16px;
     line-height: 1.2;
     font-weight: normal;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
 
 /* Wrapper */
