@@ -22,6 +22,7 @@
 
 .link {
     text-decoration: none;
+
 }
 
 .current {
@@ -105,9 +106,6 @@ body {
 }
 
 .wrapper-nav-item {
-
-
-
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -151,7 +149,6 @@ body {
 /* Head */
 
 .head {
-
     width: 1600px;
     background-color: var(--tertiary-bg-color);
 }
@@ -200,7 +197,7 @@ body {
     width: 1170px;
 }
 
-.our-peculiarities-header {
+.our-peculiarities {
     font-weight: 700;
     color: var(--title-text-color);
 }
@@ -210,56 +207,24 @@ body {
     color: var(--primary-text-color);
 }
 
-.our-peculiarities-details {
-
-
+.our-peculiarities-header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--title-text-color);
 }
 
-.our-peculiarities-punctuality {
-
-
-
-    font-weight: 700;
+.peculiarities-primary-text {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 2;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--title-text-color);
+    color: var(--primary-text-color);
 }
 
-.our-peculiarities-planning {
 
-
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--title-text-color);
-}
-
-.our-peculiarities-technologies {
-
-
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: var(--title-text-color);
-}
 
 /* What-do-we-do */
 
@@ -336,15 +301,15 @@ body {
 
 }
 
-.our-team-position {
-
-
-    line-height: 1.2;
-
+.our-team-primary-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.875;
     letter-spacing: 0.03em;
-
     color: var(--primary-text-color);
+
 }
+
 
 /* Footer */
 
@@ -374,7 +339,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent);
 }
-
 
 .address-container {}
 
@@ -423,4 +387,22 @@ body {
 .footer-tel:focus {
     cursor: pointer;
     color: var(--accent);
+}
+
+/* portfolio */
+
+.portfolio-list-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-primary-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
