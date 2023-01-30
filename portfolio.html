@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body class="body">
 
     <!-- wrapper -->
 
@@ -24,28 +24,30 @@
 
             <a href="./index.html" class="wrapper-logo-link link"> <span class="web">Web</span>Studio</a>
 
-
             <ul class="wrapper-nav-list list">
 
-                <li class="wrapper-item">
-                    <a href="./index.html" class="wrapper-nav-item link">Студія</a>
+                <li class="wrapper-nav-item">
+                    <a href="./index.html" class="wrapper-nav-menu link">Студія</a>
                 </li>
 
-                <li class="wrapper-item link">
-                    <a href="./portfolio.html" class="wrapper-nav-item link current">Портфоліо</a>
+                <li class="wrapper-nav-item">
+                    <a class="current link" href="./portfolio.html" class="wrapper-nav-menu link">Портфоліо</a>
                 </li>
 
-                <li class="wrapper-item">
-                    <a href="./contacts.html" class="wrapper-nav-item link">Контакти</a>
+                <li class="wrapper-nav-item">
+                    <a href="./contacts.html" class="wrapper-nav-menu link">Контакти</a>
                 </li>
 
             </ul>
         </nav>
 
         <ul class="contacts-bar list">
-            <li class="contacts-bar-mail-to link"><a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li>
+                <a class="link contacts-bar-mail-to" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="contacts-bar-tel"><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+            <li><a class="contacts-bar-tel link" href="tel:+380961111111">+38 096
+                    111 11 11</a>
+            </li>
         </ul>
 
     </header>
@@ -62,47 +64,52 @@
                 <li><button type="button" class="button-secondary">Маркетинг</button></li>
 
             </ul>
+            <header hidden>
+                <h1>Портфоліо</h1>
+            </header>
+
+            <ul class="list">
+                <li><a href="/" class="link"><img src="./img/technocrack.jpg" alt="technocrack" width="370">
+                        <h2 class="portfolio-list-header">Технокряк</h2>
+                        <p class="portfolio-primary-text">Веб-сайт</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/new-orlean.jpg" alt="new-orlean" width="370">
+                        <h2 class="portfolio-list-header">Постер New Orlean vs Golden Star</h2>
+                        <p class="portfolio-primary-text">Дизайн</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/sea-food.jpg" alt="sea-food" width="370">
+                        <h2 class="portfolio-list-header">Ресторан Seafood</h2>
+                        <p class="portfolio-primary-text">Додаток</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/prime.jpg" alt="prime" width="370">
+                        <h2 class="portfolio-list-header">Проєкт Prime</h2>
+                        <p class="portfolio-primary-text">Маркетинг</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/boxes.jpg" alt="boxes" width="370">
+                        <h2 class="portfolio-list-header">Проєкт Boxes</h2>
+                        <p class="portfolio-primary-text">Додаток</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/inspiration.jpg" alt="inspiration" width="370">
+                        <h2 class="portfolio-list-header">Inspiration has no Borders</h2>
+                        <p class="portfolio-primary-text">Веб-сайт</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/edition.jpg" alt="edition" width="370">
+                        <h2 class="portfolio-list-header">Видання Limited Edition</h2>
+                        <p class="portfolio-primary-text">Дизайн</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/labeltag.jpg" alt="labeltag" width="370">
+                        <h2 class="portfolio-list-header">Проєкт LAB</h2>
+                        <p class="portfolio-primary-text">Маркетинг</p>
+                    </a></li>
+                <li><a href="/" class="link"><img src="./img/growing.jpg" alt="growing" width="370">
+                        <h2 class="portfolio-list-header">Growing Business</h2>
+                        <p class="portfolio-primary-text">Додаток</p>
+                    </a></li>
+            </ul>
 
         </section>
 
-        <ul class="list">
-            <li><a href="/" class="link"><img src="./img/technocrack.jpg" alt="technocrack" width="370">
-                    <h2 class="portfolio-list-header">Технокряк</h2>
-                    <p class="portfolio-primary-text">Веб-сайт</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/new-orlean.jpg" alt="new-orlean" width="370">
-                    <h2 class="portfolio-list-header">Постер New Orlean vs Golden Star</h2>
-                    <p class="portfolio-primary-text">Дизайн</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/sea-food.jpg" alt="sea-food" width="370">
-                    <h2 class="portfolio-list-header">Ресторан Seafood</h2>
-                    <p class="portfolio-primary-text">Додаток</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/prime.jpg" alt="prime" width="370">
-                    <h2 class="portfolio-list-header">Проєкт Prime</h2>
-                    <p class="portfolio-primary-text">Маркетинг</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/boxes.jpg" alt="boxes" width="370">
-                    <h2 class="portfolio-list-header">Проєкт Boxes</h2>
-                    <p class="portfolio-primary-text">Додаток</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/inspiration.jpg" alt="inspiration" width="370">
-                    <h2 class="portfolio-list-header">Inspiration has no Borders</h2>
-                    <p class="portfolio-primary-text">Веб-сайт</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/edition.jpg" alt="edition" width="370">
-                    <h2 class="portfolio-list-header">Видання Limited Edition</h2>
-                    <p class="portfolio-primary-text">Дизайн</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/labeltag.jpg" alt="labeltag" width="370">
-                    <h2 class="portfolio-list-header">Проєкт LAB</h2>
-                    <p class="portfolio-primary-text">Маркетинг</p>
-                </a></li>
-            <li><a href="/" class="link"><img src="./img/growing.jpg" alt="growing" width="370">
-                    <h2 class="portfolio-list-header">Growing Business</h2>
-                    <p class="portfolio-primary-text">Додаток</p>
-                </a></li>
-        </ul>
+
 
     </main>
 
@@ -114,11 +121,11 @@
         <a href="./index.html" class="footer-logo-link"> <span class="web">Web</span>Studio</a>
         <address>
             <ul class="address-container list">
-                <li class="footer-physical-address link"><a href="/">м. Київ, Бульвар Лесі Українки, б. 26, 4й поверх
-                        офіс
+                <li class=""><a class="link footer-physical-address link" href="/">м. Київ, Бульвар Лесі Українки,
+                        б.26,4й поверх офіс
                         427</a></li>
-                <li class="footer-mail-to"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-tel"><a href="tel:+380961111111"></a>+38 096 111 11 11</li>
+                <li><a class="footer-mail-to link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-tel"><a class="link" ref="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
