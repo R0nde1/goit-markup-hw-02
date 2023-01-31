@@ -33,8 +33,8 @@
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    color: var(--secondary-button-color);
-    background: var(--accent);
+    color: var(--wh-text-color);
+    background-color: var(--accent);
     border-radius: 4px;
     cursor: pointer;
 }
@@ -116,7 +116,7 @@ body {
     line-height: 1.14px;
     letter-spacing: 0.02em;
 
-    color: var(--title-text-color)
+    color: var(--title-text-color);
 }
 
 .contawrapper-nav-portfolio {
@@ -130,7 +130,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--accent);
+    color: var(--primary-text-color);
 }
 
 .contacts-bar-tel {
@@ -139,7 +139,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 
 
@@ -147,13 +147,14 @@ body {
 .wrapper-nav-item:hover,
 .wrapper-nav-item:focus {
     cursor: pointer;
+    color: var(--accent);
 }
 
 .contacts-bar-mail-to:hover,
 .contacts-bar-mail-to:focus {
 
     cursor: pointer;
-    color: var(--primary-text-color);
+    color: var(--accent);
 }
 
 .contacts-bar-tel:hover,
@@ -184,30 +185,36 @@ body {
 
 /* Button */
 
-.button-primary {
+.hero-button {
     color: var(--secondary-button-color);
-    background-color: var(--primary-bg-color);
-    background: var(--accent);
-}
-
-.button:hover,
-.button:focus {
-    cursor: pointer;
-    color: var(--accent);
-}
-
-.button.primary {
-    color: var(--wh-text-color);
     background-color: var(--accent);
-}
-
-.button.secondary {
-    color: var(--title-text-color);
-    background-color: var(--secondary-button-color);
 
 }
+
+.hero-button:hover,
+.hero-button:focus {
+    cursor: pointer;
+    background-color: #188CE8;
+
+}
+
+
 
 /* Peculiarities */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .our-peculiarities-container {
     width: 1170px;
@@ -233,11 +240,11 @@ body {
 }
 
 .peculiarities-primary-text {
-    font-weight: 400;
+
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+
 }
 
 
@@ -251,7 +258,11 @@ body {
 
 .what-do-we-do-header {
     font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
+
 }
 
 .what-do-we-do-container-list {}
@@ -264,7 +275,7 @@ body {
 }
 
 .our-team-header {
-    font-weight: 700;
+
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
