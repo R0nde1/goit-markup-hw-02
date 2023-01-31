@@ -28,6 +28,8 @@
     color: var(--accent);
 }
 
+
+
 .button-primary {
     font-weight: 700;
     font-size: 16px;
@@ -96,6 +98,11 @@ body {
 }
 
 .wrapper-nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
     list-style: none;
     color: var(--title-text-color);
 }
@@ -106,16 +113,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--title-text-color);
-
-}
-
-.wrapper-nav-menu {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    letter-spacing: 0.02em;
-
     color: var(--title-text-color);
 }
 
@@ -152,7 +149,6 @@ body {
 
 .contacts-bar-mail-to:hover,
 .contacts-bar-mail-to:focus {
-
     cursor: pointer;
     color: var(--accent);
 }
@@ -186,19 +182,23 @@ body {
 /* Button */
 
 .hero-button {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
     color: var(--secondary-button-color);
     background-color: var(--accent);
+    cursor: pointer;
 
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    cursor: pointer;
+
     background-color: #188CE8;
-
 }
-
-
 
 /* Peculiarities */
 
